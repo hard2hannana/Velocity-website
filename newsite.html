@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/styles.css">
+    <title>Velocity Vending></title>
+   
+</head>
+<body>
+  <nav class="navbar">
+    <div class="navbar-left">
+        <img src="Images/logo-files/Logo3-02-02.jpg" alt="Logo">
+      </div>
+
+      <button class="hamburger" id="hamburger">&#9776;</button>
+
+    <div class="nav-links" id="navLinks">
+      <a href="#home">Home</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+      <a href="#products">Products</a>
+    </div>
+  </nav>    
+
+<div class="image-container">
+  <img src="Images/mainImg.jpg" alt="Soda Machines">
+  <div class="overlay">
+    <div class="overlay-top">
+      <h1 class="top-text">Velocity Vending</h1>
+      <h3 class="top-text-h3">North Myrtle Beach, SC</h3>
+    </div>
+
+    <div class="overlay-middle overlay-text">
+      <p class="middle-text">We offer
+            state-of-the-art
+            vending machines
+            that provide 24/7 
+            access to premium
+            snacks and drinks</p>
+    </div>
+
+    <div class="overlay-bottom">
+      <p class="bottom-text overlay-text" style="margin: 20px">😎 Serving up delicious 🍿Snacks, 🥤Cold drinks, and zero hassle😋</p>
+      <p class="bottom-text"> ⚡Fast, efficient, and always stocked!!! 🎉</p>
+
+    </div>
+  </div>
+</div>
+<section class="info-section">
+  <div class="info-content">
+    <!-- Left Column: Text -->
+    <div class="info-text">
+      <h2>Uniquely Tailored Solutions</h2>
+      <p>Velocity Vending provides tailored vending solutions, ensuring that our vending services meet the highest standards and offer seamless access to what you need when you need it.</p>
+      <ul>
+        <li>100% Hands-Free for You - We handle everything: installation, restocking, maintenance, and customer support.</li>
+        <li>Modern, Cashless Technology - Accepts credit cards, mobile payments, and contactless options for a seamless guest experience.</li>
+        <li>Custom-Branded Machines - Designed to complement your location's aesthetic and branding.</li>
+      </ul>
+      <button class="info-button">Click to enter contact info</button>
+    </div>
+
+    <!-- Right Column: Image -->
+    <div class="info-image hide">
+      <img src="Images/snackmachine.jpg" alt="Snacks and Drinks">
+    </div>
+  </div>
+</section>
+<section class="products-section" id="products">
+  <img src="Images/partialMachine.jpg" class="product-image">
+  <h2>We Proudly Stock All the Big Name Products<br> From the Brands You Know and Love</h2>
+  <div class="product-grid">
+    
+     <div class="product-card">
+      <img src="Images/products/hersheyBar.png" class="large">
+    </div>
+    <div class="product-card">
+      <img src="Images/products/skittles.png" class="large hide">
+    </div>
+    
+    <div class="product-card">
+      <img src="Images/products/bbqDoritos.png" class="medium">
+    </div> 
+    <div class="product-card">
+      <img src="Images/products/fritos.png" class="medium hide">
+    </div>
+    <div class="product-card">
+      <img src="Images/products/cheetos.png" class="medium hide">
+    </div>  
+    <div class="product-card">
+      <img src="Images/products/m&m.png" class="large">
+    </div>
+    <div class="product-card">
+      <img src="Images/products/snickers.png" class="large hide">
+    </div>  
+    <div class="product-card">
+      <img src="Images/products/coffee.png" class="small">
+    </div>
+    <div class="product-card">
+      <img src="Images/products/coke.png" class="small hide">
+    </div>
+    <div class="product-card">
+      <img src="Images/products/sprite.png" class="medium">
+    </div>
+    <div class="product-card">
+     <img src="Images/products/snyders.png" class="medium">
+    </div>
+     <div class="product-card">
+      <img src="Images/products/dr.pepper.png" class="medium hide">
+    </div>
+
+    <div class="product-card">
+      <img src="Images/products/water.png" class="small hide">
+    </div>
+    
+   
+    <div class="product-card">
+      <img src="Images/products/gatorade.png" class="small hide">
+    </div>
+   
+    <!-- <div class="product-card">
+      <img src="Images/products/bbqDoritos.png">
+    </div>
+    <div class="product-card">
+      <img src="Images/products/bbqDoritos.png">
+    </div> -->
+  </div>
+   <h2>🌟 Just a glimpse of what we offer — and there's plenty more! 🌟</h2>
+</section>
+<footer class="site-footer">
+  <div class="footer-container">
+    <div class="footer-about">
+      <img src="Images/logo-files/Logo2.png">
+      <p>Serving North Myrtle Beach and beyond with top-tier vending solutions and trusted brands.</p>
+    </div>
+
+    <div class="footer-links">
+      <h4>Quick Links</h4>
+      <ul>
+        <li><a href="#home" onclick="scrollAndReload(); return false;">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="#products">Products</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-contact">
+      <h4>Contact</h4>
+      <p>Email: contact@vendingisfun.com</p>
+      <p>Phone: (555) 123-4567</p>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>&copy; 2025 Velocity Vending LLC. All rights reserved.</p>
+  </div>
+</footer>
+<script src="scripts/script.js"></script>
+
+</body>
+</html>
