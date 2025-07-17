@@ -6,8 +6,7 @@
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     padding-top: 2rem;   /* or whatever size you like */
     padding-bottom: 2rem;
-    background: rgb(237, 237, 237);
-
+    background: linear-gradient(to bottom, rgb(24, 24, 24), rgb(30, 30, 30));
    
     margin: 0;
     }
@@ -22,7 +21,7 @@
       padding: 2rem;
       margin: 0;
       animation: slide-in 1s ease-out forwards;
-      color: #090505;
+      color: #fff;
 }
 .banner-left p {
     font-family: 'Josefin Sans', sans-serif;
@@ -147,7 +146,7 @@
 }
 
 .map-section {
-    background: rgb(24, 24, 24); 
+    background: linear-gradient(to bottom, rgb(24, 24, 24), rgb(30, 30, 30));
     color: #fff;
     font-family: 'merriweather', sans-serif;
     font-size: 3vw;

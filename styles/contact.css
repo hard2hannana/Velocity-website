@@ -10,6 +10,7 @@
 .left-text {
   flex: 1 1 45%;
   padding: 15vh 4vw;
+  animation: slide-in 1s ease-out forwards;
 }
 
 .left-text h2, h3 {
@@ -58,7 +59,7 @@
 }
 
 .contact-form button {
-  background-color: #2143f7;
+  background-color: #2783e6;
   font-family: 'Josefin Sans', sans-serif;
   letter-spacing: 1.6;
   color: white;
@@ -71,7 +72,7 @@
 }
 
 .contact-form button:hover {
-  background-color: #427cbb;
+  background-color: #0056b3;
 }
 
 @media (max-width: 768px) {
