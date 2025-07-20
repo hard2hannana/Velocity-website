@@ -105,7 +105,7 @@ html, body {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  padding: 1em;
+  padding: .5em 1em ;
   }
 
 h1, h3 {
@@ -141,7 +141,7 @@ h3 {
   font-size: .9rem;
   text-align: center;
   letter-spacing: 1.1px;
-  max-width: 70%;
+  max-width: 90%;
 }
     
     @keyframes slide-in {
